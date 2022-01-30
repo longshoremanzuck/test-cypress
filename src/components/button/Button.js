@@ -3,7 +3,7 @@
 const Button = () =>  {
   return (
     <>
-        <button onClick={()=>alert('Hi!')}>test me </button>
+        <button onClick={()=>alert('Hi!')}>test me</button>
     </>
   );
 }
