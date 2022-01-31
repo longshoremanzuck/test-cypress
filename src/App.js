@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <a href='ref'>Hi</a>
       </header>
       <div>
           <Button/>
