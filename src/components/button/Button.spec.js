@@ -6,6 +6,6 @@ import Button from './Button'
 
 
 it('Test Button', () => {
-  mount(<Button>Test button</Button>)
-  cy.get('button').contains('Test button').click()
+  mount(<Button />)
+  cy.get('.btn').contains('Test button').click({force: true})
 })
