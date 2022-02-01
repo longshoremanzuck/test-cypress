@@ -3525,6 +3525,13 @@
   dependencies:
     "cssom" "~0.3.6"
 
+"cypress-react-selector@^2.3.15":
+  "integrity" "sha512-jt/s7Y3rhD8dCdBhW3CBdyD1nAP47YgAQiBfNvKYzymkZ/1Mi5RS8/B0+tMFZucnOAjnCmOSFqnLleAZdDDtzg=="
+  "resolved" "https://registry.npmjs.org/cypress-react-selector/-/cypress-react-selector-2.3.15.tgz"
+  "version" "2.3.15"
+  dependencies:
+    "resq" "1.10.2"
+
 "cypress@*", "cypress@^9.3.1":
   "integrity" "sha512-BODdPesxX6bkVUnH8BVsV8I/jn57zQtO1FEOUTiuG2us3kslW7g0tcuwiny7CKCmJUZz8S/D587ppC+s58a+5Q=="
   "resolved" "https://registry.npmjs.org/cypress/-/cypress-9.3.1.tgz"
@@ -4566,6 +4573,11 @@
   "integrity" "sha1-lpGEQOMEGnpBT4xS48V06zw+HgU="
   "resolved" "https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz"
   "version" "1.3.0"
+
+"fast-deep-equal@^2.0.1":
+  "integrity" "sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk="
+  "resolved" "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz"
+  "version" "2.0.1"
 
 "fast-deep-equal@^3.1.1", "fast-deep-equal@^3.1.3":
   "integrity" "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
@@ -8339,6 +8351,13 @@
   dependencies:
     "is-core-module" "^2.2.0"
     "path-parse" "^1.0.6"
+
+"resq@1.10.2":
+  "integrity" "sha512-HmgVS3j+FLrEDBTDYysPdPVF9/hioDMJ/otOiQDKqk77YfZeeLOj0qi34yObumcud1gBpk+wpBTEg4kMicD++A=="
+  "resolved" "https://registry.npmjs.org/resq/-/resq-1.10.2.tgz"
+  "version" "1.10.2"
+  dependencies:
+    "fast-deep-equal" "^2.0.1"
 
 "restore-cursor@^3.1.0":
   "integrity" "sha512-l+sSefzHpj5qimhFSE5a8nufZYAM3sBSVMAPtYkmC+4EH2anSGaEMXSD0izRQbu9nfyQ9y5JrVmp7E8oZrUjvA=="
