@@ -11,6 +11,5 @@ import App from './App';
   
   it('renders app and fetch elemnet using react-selector', () => {
     mount(<App />)
-    cy.waitForReact()
-    cy.react('App').should('be.visible')
+    cy.get('.App').should('be.visible')
   })
