@@ -1,5 +1,6 @@
-import './App.css';
-import Button from './components/button/Button';
+import './App.css'
+import Button from './components/button/Button'
+import Form from './components/form/Form'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </header>
       <div>
           <Button/>
+          <Form/>
       </div>
     </div>
   );
