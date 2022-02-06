@@ -47,6 +47,12 @@ describe('first integartion test', () => {
         cy.wait(200)      
     })
 
+    it('Clears an input', () => {
+        cy.get('label > input').type('Clear this text')
+          .should('have.value', 'Clear this text')
+          .clear()
+          .should('have.value', '')
+    })
 })
 
 
